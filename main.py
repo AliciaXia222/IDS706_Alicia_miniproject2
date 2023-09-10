@@ -4,7 +4,7 @@ Main cli or app entry point
 import pandas as pd
 import matplotlib.pyplot as plt
 from ydata_profiling import ProfileReport
-import weasyprint
+
 
 # Read the uploaded csv file: population.csv
 population = pd.read_csv("population.csv")
@@ -54,5 +54,3 @@ def generate_summary(csv):
     general_df = pd.read_csv(csv)
     profile = ProfileReport(general_df, title="Profiling Report")
     profile.to_file("profile.html")
-    pdf_report = weasyprint.HTML("profile.html")
-    pdf_report.write_pdf("profile.pdf")
