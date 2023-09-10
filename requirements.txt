@@ -41,3 +41,5 @@ tzdata==2023.3
 urllib3==1.26.16
 uvicorn==0.18.3
 wrapt==1.15.0
+matplotlib==3.7.2
+ydata-profiling==4.5.1

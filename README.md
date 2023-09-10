@@ -1,44 +1,43 @@
 [![CI](https://github.com/AliciaXia222/IDS_706_miniproject_1/actions/workflows/cicd.yml/badge.svg)](https://github.com/AliciaXia222/IDS_706_miniproject_1/actions/workflows/cicd.yml)
-# IDS_706_miniproject_1
-This repository is only a test for Course IDS 706 miniproject1, "creating a template in github".
-It incorporates various tools and libraries to support the development and deployment of data engineering projects. Below, we provide an overview of each feature included in this environment.
 
-* 'Makefile'
+# IDS_706_miniproject_2-Country Population Growth
+## Prepare develope environment
+    * Log in to github 
+    * Going into project1 to use template
+    * luanch Codespace
+    * wait for setting up environment
+    * Test on Makefile to use make format, make lint, make test to make sure code format follow the rule.
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/3aea917d-dd73-4739-8e8a-ec40a3f23fe8)
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/b9b5c653-a91e-46b1-9e5c-b9203685900e)
 
-It is a simple way to define and execute frequently used commands for automation. Here's a breakdown of what each target does:
-    
-    * 'Pytest': Pytest is a testing framework for Python. It allows you to write and run tests to ensure the correctness of your code. In data engineering, it's essential to validate the accuracy and reliability of your data pipelines and transformation processes.
-    
-    * 'Pylint': Pylint is a code linter for Python. It helps ensure your code adheres to coding standards and best practices, which is crucial for maintaining code quality in a collaborative environment.
-   
-    * 'test': This target runs your test suite using pytest. It provides verbose output (-vv), calculates code coverage (--cov=main), and specifies the coverage report generation directory (--cov=mylib). It's a good practice to ensure your code is tested thoroughly.
-    
-    * 'format': This target formats your Python code using black, a code formatter. Consistent code formatting enhances code readability and maintainability.
-    
-    * 'lint': This target performs code linting using pylint. It disables specific lint checks (--disable=R,C), ignores certain files (--ignore-patterns=test_.*?py *.py mylib/*.py), and checks for code quality and adherence to coding standards.
-    
-    * 'container-lint': This target runs hadolint, a Dockerfile linter, to check the quality and adherence to best practices of your Dockerfile.
-    
-    * 'refactor': This target combines the format and lint targets. It's a convenient way to ensure your code is well-formatted and linted before further actions.
-   
-    * 'deploy': This target is a placeholder for deployment-related actions. You can customize it to perform tasks like deploying your data engineering project to a production environment.
-   
-    * 'all': This target defines the default build process for your project. It specifies that when you run make all, it should execute the install, lint, test, format, and deploy targets in that order.
+## Purpose
 
-    ## To use this Makefile, 
+* This repo is to apply basic EDA on a Country Population Growth Data and plot the mean, median, Standard Deviation of the Growth% through 63 years.
 
-        1. open your terminal
-        2. navigate to your project directory
-        3. run the desired command using make. 
-            For example, I can install dependencies by running 'make install', run tests with 'make test', or format my code with 'make format'.
+## Descriptive statistics:
 
-** Also I need make sure I have the required tools (pytest, black, pylint, hadolint, etc.) installed in my development environment to use this Makefile effectively.
+* The data has 67 columns and 266 entries.
+    * 4 rows categorical data
+    * 63 rows numerical data
+    * no data points under 1960 year variable
+    * except 1960 column, there are non-null in other columns
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/5d53698e-230e-4208-b67e-a76f24bd52d0)
 
-* 'GitHub Actions'
+## Summary Statistics:
 
-    I set up workflows to automate tasks such as running tests, installing package, linting code, formatting code and deploying my data engineering projects. It helps ensure that code is continuously integrated and tested as I make changes with the 'cicd.yml' file.
+* Because of 1960 has no data, so there is no statistcis summary
+* There are 64 years data, so only made a screenshot for first 8 yeras started from 1960
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/62d717be-560b-4b7e-be5d-8f5961a050b3)
 
-* 'Dokerfile':
-    I made this configuration well-suited for a data engineering or development environment where I need Python, Docker, GPU support (NVIDIA CUDA), Jupyter notebooks, and code linting/formating tools like Pylint, Black, and others. It also includes extensions for GitHub integration and Makefile support. Make sure to provide the necessary setup instructions and scripts in my "setup.sh" file to complete the environment setup.
+## Data Viz:
 
-Overall, this environment is aim to make data analytics workstream more efficient and automated.
+* Below is Mean, Median, Standard Deviation of 266 countries population growth plot across 63 years.
+
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/d370e7b4-1277-4dad-9548-82f692485c85)
+
+## Python Script:
+
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/2b5f3846-fd3c-4b2c-a1cf-29af789f8e46)
+![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/61a0658f-6b35-4479-8e25-9f16850362dc)
+
+## Generated summary report:

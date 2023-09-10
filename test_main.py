@@ -3,11 +3,14 @@ Test goes here
 
 """
 
-from mylib.calculator import multiply
+
+from main import rows, columns
+
+if __name__ == "__main__":
+
+    test_main()
 
 
-def test_multiply():
-    '''
-    Test function for basic multiplication.
-    '''
-    assert multiply(1, 2) == 2
+def test_main():
+    assert rows == 266
+    assert columns == 67
