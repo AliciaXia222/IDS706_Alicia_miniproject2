@@ -21,12 +21,14 @@
     * 63 rows numerical data
     * no data points under 1960 year variable
     * except 1960 column, there are non-null in other columns
+
 ![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/5d53698e-230e-4208-b67e-a76f24bd52d0)
 
 ## Summary Statistics:
 
 * Because of 1960 has no data, so there is no statistcis summary
 * There are 64 years data, so only made a screenshot for first 8 yeras started from 1960
+
 ![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/62d717be-560b-4b7e-be5d-8f5961a050b3)
 
 ## Data Viz:
@@ -38,6 +40,7 @@
 ## Python Script:
 
 ![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/2b5f3846-fd3c-4b2c-a1cf-29af789f8e46)
+
 ![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/61a0658f-6b35-4479-8e25-9f16850362dc)
 
 ## Generated summary report:
