@@ -7,8 +7,9 @@
     * luanch Codespace
     * wait for setting up environment
     * Test on Makefile to use make format, make lint, make test to make sure code format follow the rule.
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/3aea917d-dd73-4739-8e8a-ec40a3f23fe8)
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/b9b5c653-a91e-46b1-9e5c-b9203685900e)
+![Screenshot 2023-09-09 201323](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/eb3ca2a4-0309-46ac-976d-863a9ed3c16c)
+
+![Screenshot 2023-09-09 201449](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/08b1f872-ef59-4a3e-a44c-efff2b411a79)
 
 ## Purpose
 
@@ -22,26 +23,26 @@
     * no data points under 1960 year variable
     * except 1960 column, there are non-null in other columns
 
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/5d53698e-230e-4208-b67e-a76f24bd52d0)
+![Screenshot 2023-09-09 201900](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/c6c416a5-1ff2-40e8-a859-8a17962efd23)
 
 ## Summary Statistics:
 
 * Because of 1960 has no data, so there is no statistcis summary
 * There are 64 years data, so only made a screenshot for first 8 yeras started from 1960
 
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/62d717be-560b-4b7e-be5d-8f5961a050b3)
+![Screenshot 2023-09-09 202958](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/2086e8c3-7996-455c-82e7-841f4ee05b20)
 
 ## Data Viz:
 
 * Below is Mean, Median, Standard Deviation of 266 countries population growth plot across 63 years.
 
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/d370e7b4-1277-4dad-9548-82f692485c85)
+![Screenshot 2023-09-09 203331](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/4fd4ae3c-b538-48e0-a494-e990eb0f2a62)
 
 ## Python Script:
 
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/2b5f3846-fd3c-4b2c-a1cf-29af789f8e46)
+![Screenshot 2023-09-09 203559](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/6b74d322-df10-4b61-b98a-2edb5d264dfc)
 
-![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/61a0658f-6b35-4479-8e25-9f16850362dc)
+![Screenshot 2023-09-09 203640](https://github.com/nogibjj/IDS706_Alicia_miniproject2/assets/143651934/1b92908d-38ad-43e0-970b-e6f333d22c7b)
 
 ## Generated summary report:
 
