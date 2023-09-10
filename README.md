@@ -18,8 +18,8 @@
 ## Descriptive statistics:
 
 * The data has 67 columns and 266 entries.
-    * 4 rows categorical data
-    * 63 rows numerical data
+    * 4 rows of categorical data
+    * 63 columns of numerical data
     * no data points under 1960 year variable
     * except 1960 column, there are non-null in other columns
 
