@@ -37,8 +37,8 @@ def viz_population():
 
 
 # generate a analyse report
-def viz_population():
-    population_report = pd.read_csv("population.csv")
+def report_population(): 
+    population = pd.read_csv("population.csv")
     population_report = population.loc[
         0:10, ["Country Name", "2018", "2019", "2020", "2021", "2022"]
     ]
@@ -46,3 +46,9 @@ def viz_population():
         population_report, title="Country Population Report", explorative=True
     )
     profile.to_file("data_profiling_report.html")
+
+def generate_summary(csv):
+    """generates report of any dataset"""
+    general_df = pd.read_csv(csv)
+    profile = ProfileReport(general_df, title="Profiling Report")
+    profile.to_file("profile.html")
