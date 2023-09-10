@@ -44,3 +44,5 @@
 ![image](https://github.com/nogibjj/Alicia_IDS706_miniproject2/assets/143651934/61a0658f-6b35-4479-8e25-9f16850362dc)
 
 ## Generated summary report:
+
+* Please see "profile.pdf"
